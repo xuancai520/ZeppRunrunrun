@@ -35,6 +35,34 @@ pip install -r requirements.txt
   "SLEEP_GAP": 5
 }
 ```
+### WIN 使用方法 
+
+## 1. 安装依赖
+```bash
+pip install -r requirements.txt
+```
+
+## 2.CONFIG 配置
+在文件config.json中设置填写即可
+```json
+{
+  "USER": "账号(手机号或邮箱)",
+  "PWD": "密码",
+  "MIN_STEP": 最小步数(写数字即可),
+  "MAX_STEP": 最大步数(写数字即可),
+  "SLEEP_GAP": 5
+}
+
+```
+## 3.运行
+
+配置完config.json
+双击run.bat运行即可
+
+## 4.一键设置定时运行
+
+双击运行根目录中的cron.bat即可(默认设置为22:30)
+修改可以在双击cron.bat的窗口中自行设置
 
 ## 🔐 Token 缓存配置
 
