@@ -152,7 +152,7 @@ pip install requests pytz pycryptodome
 
 如果需要修改执行时间，只需：
 1. 修改 `config.json` 中的 `RUN_START_TIME`、`RUN_END_TIME`、`RUN_INTERVAL`
-2. 重新运行 `自动导入定时任务每日22点30分自动执行.bat`
+2. 重新运行 `cron.bat`
 
 ### 5. 查看和管理定时任务
 
