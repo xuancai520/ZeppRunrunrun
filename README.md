@@ -157,7 +157,7 @@ pip install requests pytz pycryptodome
 ### 5. 查看和管理定时任务
 
 - 打开 **任务计划程序**（在开始菜单搜索"任务计划程序"）
-- 找到任务名称 `\步数修改`
+- 找到任务名称 `步数修改`
 - 可右键查看属性、删除、立即运行等操作
 
 ### 6. 常见问题
@@ -180,7 +180,7 @@ schtasks /delete /tn "\步数修改" /f
 ## ⚠️ 注意事项
 
 1. **AES_KEY 必须是 16 字节**（16 个字符）
-2. 不要将 `encrypted_tokens.data` 提交到 Git
+2. 不要将 `encrypted_tokens.data`提交到 Git
 3. 保管好 AES_KEY，泄露后需立即更换
 4. 未配置 AES_KEY 时，功能会自动降级为每次登录模式
 
