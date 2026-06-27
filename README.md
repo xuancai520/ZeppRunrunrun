@@ -2,12 +2,6 @@
 
 ZEPP Life API 刷微信支付宝步数
 
-本项目来自[zhtok/ZeppRunrunrun](https://github.com/zhtok/ZeppRunrunrun)
-
-我仅为windows本地运行相关部分添加了更方便使用方式并未进行代码的修改
-
-侵权删
-
 ## ✨ 新功能
 
 ### Token 缓存机制（2026-01-14）
