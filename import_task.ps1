@@ -111,6 +111,10 @@ while ($currentTime -le $endTime) {
     $currentTime = $currentTime.AddHours($intervalHours)
 }
 
+if ($times.Count -gt 0 -and $times[-1] -ne $endTime.ToString("HH:mm")) {
+    $times[-1] = $endTime.ToString("HH:mm")
+}
+
 Write-Host "  Times:" -ForegroundColor White
 foreach ($t in $times) { Write-Host "    - $t" -ForegroundColor Cyan }
 
